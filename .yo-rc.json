@@ -1,0 +1,53 @@
+{
+  "generator-jhipster": {
+    "authenticationType": "jwt",
+    "cacheProvider": "ehcache",
+    "clientFramework": "angularX",
+    "serverPort": "8080",
+    "serviceDiscoveryType": false,
+    "skipUserManagement": false,
+    "baseName": "photo",
+    "buildTool": "maven",
+    "databaseType": "sql",
+    "devDatabaseType": "mysql",
+    "enableHibernateCache": true,
+    "enableSwaggerCodegen": false,
+    "enableTranslation": true,
+    "jhiPrefix": "jhi",
+    "languages": ["en", "zh-cn"],
+    "messageBroker": false,
+    "nativeLanguage": "zh-cn",
+    "prodDatabaseType": "mysql",
+    "searchEngine": false,
+    "skipClient": false,
+    "testFrameworks": ["protractor"],
+    "websocket": false,
+    "applicationType": "monolith",
+    "packageName": "com.ustcck.photo",
+    "packageFolder": "com/ustcck/photo",
+    "useSass": true,
+    "jhipsterVersion": "6.8.0",
+    "creationTimestamp": 1588220400824,
+    "skipServer": false,
+    "clientPackageManager": "npm",
+    "clientTheme": "none",
+    "clientThemeVariant": "",
+    "jwtSecretKey": "MzUwMDkwMDljZGIzY2I2YWI4OGE0ZjNiZWI1ZTYyYjA2MDI4NmE1MzcwYTNkMmFhMTgxN2ZiZTcxYTMxMzI2NmEwMmIwYTE0NWExM2ExYTU0M2JhMGY3Njc4YzVkMmVhZWNkMjhiMmM0N2QxNTExYmZhYTMzM2QyNGY5MmQ1NWU=",
+    "embeddableLaunchScript": false,
+    "entitySuffix": "",
+    "dtoSuffix": "DTO",
+    "otherModules": [
+      {
+        "name": "generator-jhipster-vuejs",
+        "version": "1.7.0"
+      }
+    ],
+    "blueprints": [
+      {
+        "name": "generator-jhipster-vuejs",
+        "version": "1.7.0"
+      }
+    ]
+  },
+  "entities": ["Photo"]
+}

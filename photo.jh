@@ -1,0 +1,31 @@
+application {
+  config {
+    baseName photo,
+    applicationType monolith,
+    authenticationType jwt
+    packageName com.ustcck.photo,
+    devDatabaseType mysql,
+    prodDatabaseType mysql,
+    buildTool maven,
+    nativeLanguage zh-cn,
+    languages [en, zh-cn],
+	useSass true,
+    testFrameworks [protractor],
+  }
+  entities *
+}
+
+entity Photo {
+  name String
+  date Instant required
+  description String
+  image ImageBlob
+}
+
+relationship ManyToOne {
+  Photo{user(login)} to User
+}
+
+filter Photo
+
+paginate Photo with infinite-scroll
